@@ -1,0 +1,33 @@
+button{
+  border: .18em solid;
+  font-size: 12px;
+  width: 150px;
+  height: 32px;
+  background: white;
+  color: black;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
+button:not(.unavailable) {
+  cursor: pointer;
+}
+
+.gbutton{
+  background: #FFFFFF;
+  color: #000000;
+}
+
+.gbutton.unavailable {
+  background: #B0B0B0;
+}
+
+.abutton{
+  background: #000000;
+  border-color: #000000;
+  color: #FFFFFF;
+}
+
+.abutton.unavailable {
+  background: #808080;
+}
